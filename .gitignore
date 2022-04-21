@@ -1,0 +1,16 @@
+a.out
+.DS_Store
+fp-info-cache
+a.hex
+*.kicad_pcb-bak
+last_test_run.txt
+*.o
+*.pyc
+*.s
+*.S
+*.sch-bak
+*_test
+.vscode/c_cpp_properties.json
+*-backups
+*auto_saved_files*
+_autosave-*

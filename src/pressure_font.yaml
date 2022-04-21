@@ -1,0 +1,41 @@
+# Use make_var_font.py
+output_type: VariableFont
+
+# Every character must have the same height
+rows: 2
+
+# The rest is a concatenated set of sections.  If any section
+# overlaps a previous section, an error will be raised.
+sections:
+  - type: ttf
+    path: LiberationMono-Bold.ttf
+    font_size: 16
+    y_offset: 0
+    left_trim: 1
+    right_trim: 2
+    #x_scale: 0.75
+    chars: "AM"
+  - type: ttf
+    path: LiberationMono-Bold.ttf
+    font_size: 16
+    y_offset: 0
+    left_trim: 2
+    right_trim: 2
+    #x_scale: 0.75
+    chars: " :+-0123456789inhCDEFGHIKLNOPRSTUZmx"
+  - type: ttf
+    path: LiberationMono-Bold.ttf
+    font_size: 16
+    y_offset: 0
+    left_trim: 2
+    right_trim: 1
+    #x_scale: 0.75
+    chars: "a"
+  - type: ttf
+    path: LiberationMono-Bold.ttf
+    font_size: 16
+    y_offset: 0
+    left_trim: 4
+    right_trim: 4
+    #x_scale: 0.75
+    chars: "."

@@ -1,0 +1,2 @@
+CFLAGS=-DOLEDM_EMULATE_MONOCHROME -D__AVR_MEGA__
+include ../../test.mak

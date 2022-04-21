@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "ARDUINO_PRO_MINI_custom")(type "Legacy")(uri "${KIPRJMOD}/lib/ARDUINO_PRO_MINI_custom.lib")(options "")(descr ""))
+)

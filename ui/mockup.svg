@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="296"
+   height="128"
+   viewBox="0 0 78.316665 33.866668"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="mockup.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="true"
+     units="px"
+     width="296px"
+     inkscape:zoom="1.84375"
+     inkscape:cx="147.79661"
+     inkscape:cy="64"
+     inkscape:window-width="868"
+     inkscape:window-height="451"
+     inkscape:window-x="1087"
+     inkscape:window-y="358"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer2"
+     objecttolerance="20"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1513"
+       visible="true"
+       empspacing="8" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="background"
+     inkscape:groupmode="layer"
+     id="layer1"
+     sodipodi:insensitive="true">
+    <g
+       id="g1496">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:terminus;-inkscape-font-specification:terminus;stroke-width:0.264583"
+         x="11.950147"
+         y="4.4892039"
+         id="text3287"><tspan
+           sodipodi:role="line"
+           id="tspan3285"
+           style="stroke-width:0.264583"
+           x="11.950147"
+           y="4.4892039" /></text>
+      <rect
+         style="fill:#dddddd;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="rect30"
+         width="78.316666"
+         height="2.1166668"
+         x="0"
+         y="-1.3877788e-17" />
+      <rect
+         style="fill:#dddddd;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="rect30-3"
+         width="78.316666"
+         height="2.1166668"
+         x="0"
+         y="4.2333336" />
+      <rect
+         style="fill:#dddddd;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="rect1474"
+         width="78.316666"
+         height="2.1166668"
+         x="0"
+         y="8.4666672" />
+      <rect
+         style="fill:#dddddd;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="rect1476"
+         width="78.316666"
+         height="2.1166668"
+         x="0"
+         y="12.7" />
+      <rect
+         style="fill:#dddddd;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="rect1478"
+         width="78.316666"
+         height="2.1166668"
+         x="0"
+         y="16.933334" />
+      <rect
+         style="fill:#dddddd;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="rect1480"
+         width="78.316666"
+         height="2.1166668"
+         x="-78.316666"
+         y="21.166666"
+         transform="scale(-1,1)" />
+      <rect
+         style="fill:#dddddd;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="rect1482"
+         width="78.316666"
+         height="2.1166668"
+         x="-78.316666"
+         y="25.4"
+         transform="scale(-1,1)" />
+      <rect
+         style="fill:#dddddd;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="rect1484"
+         width="78.316666"
+         height="2.1166668"
+         x="-78.316666"
+         y="29.633333"
+         transform="scale(-1,1)" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="main">
+    <text
+       xml:space="preserve"
+       style="font-size:22.7379px;line-height:1.25;font-family:'TerminessTTF Nerd Font Mono';-inkscape-font-specification:'TerminessTTF Nerd Font Mono';stroke-width:0.213168"
+       x="-1.1143258"
+       y="16.980812"
+       id="text25916"
+       transform="scale(0.83286497,1.2006748)"><tspan
+         sodipodi:role="line"
+         id="tspan25914"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.7379px;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.213168"
+         x="-1.1143258"
+         y="16.980812">13</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.7379px;line-height:1.25;font-family:'TerminessTTF Nerd Font Mono';-inkscape-font-specification:'TerminessTTF Nerd Font Mono';stroke-width:0.213168"
+       x="29.27268"
+       y="16.908775"
+       id="text25916-6"
+       transform="scale(0.83286498,1.2006748)"><tspan
+         sodipodi:role="line"
+         id="tspan25914-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.7379px;font-family:'Noto Sans Mono';-inkscape-font-specification:'Noto Sans Mono';stroke-width:0.213168"
+         x="29.27268"
+         y="16.908775">37</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.70576px;line-height:1.25;font-family:'TerminessTTF Nerd Font Mono';-inkscape-font-specification:'TerminessTTF Nerd Font Mono';stroke-width:0.0534917"
+       x="56.250881"
+       y="4.7497535"
+       id="text25916-6-5"
+       transform="scale(0.83286498,1.2006748)"><tspan
+         sodipodi:role="line"
+         id="tspan25914-7-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.70576px;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.0534917"
+         x="56.250881"
+         y="4.7497535">PM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.77508px;line-height:1.25;font-family:'TerminessTTF Nerd Font Mono';-inkscape-font-specification:'TerminessTTF Nerd Font Mono';stroke-width:0.0541417"
+       x="75.93071"
+       y="22.230576"
+       id="text25916-6-5-1"
+       transform="scale(0.83286498,1.2006748)"><tspan
+         sodipodi:role="line"
+         id="tspan25914-7-6-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.77508px;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.0541417"
+         x="75.93071"
+         y="22.230576">60.5C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.84492px;line-height:1.25;font-family:'TerminessTTF Nerd Font Mono';-inkscape-font-specification:'TerminessTTF Nerd Font Mono';stroke-width:0.0547965"
+       x="75.849358"
+       y="27.593588"
+       id="text25916-6-5-1-7"
+       transform="scale(0.83286498,1.2006748)"><tspan
+         sodipodi:role="line"
+         id="tspan25914-7-6-2-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.84492px;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.0547965"
+         x="75.849358"
+         y="27.593588">47%rH</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.67289px;line-height:1.25;font-family:'TerminessTTF Nerd Font Mono';-inkscape-font-specification:'TerminessTTF Nerd Font Mono';stroke-width:0.0344336"
+       x="50.599178"
+       y="20.945807"
+       id="text25916-6-5-1-7-9"
+       transform="scale(0.83286498,1.2006748)"><tspan
+         sodipodi:role="line"
+         id="tspan25914-7-6-2-0-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.67289px;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.0344336"
+         x="50.599178"
+         y="20.945807">1017.3 hPA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.67289px;line-height:1.25;font-family:'TerminessTTF Nerd Font Mono';-inkscape-font-specification:'TerminessTTF Nerd Font Mono';stroke-width:0.0344336"
+       x="50.673931"
+       y="24.549379"
+       id="text25916-6-5-1-7-9-3"
+       transform="scale(0.83286498,1.2006748)"><tspan
+         sodipodi:role="line"
+         id="tspan25914-7-6-2-0-3-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.67289px;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.0344336"
+         x="50.673931"
+         y="24.549379">1017.3 hPA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.67289px;line-height:1.25;font-family:'TerminessTTF Nerd Font Mono';-inkscape-font-specification:'TerminessTTF Nerd Font Mono';stroke-width:0.0344336"
+       x="50.823418"
+       y="27.945545"
+       id="text25916-6-5-1-7-9-7"
+       transform="scale(0.83286498,1.2006748)"><tspan
+         sodipodi:role="line"
+         id="tspan25914-7-6-2-0-3-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.67289px;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.0344336"
+         x="50.823418"
+         y="27.945545">1017.3 hPA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.74522px;line-height:1.25;font-family:'TerminessTTF Nerd Font Mono';-inkscape-font-specification:'TerminessTTF Nerd Font Mono';stroke-width:0.0538617"
+       x="66.407242"
+       y="4.8155637"
+       id="text25916-6-5-2"
+       transform="scale(0.83286498,1.2006748)"><tspan
+         sodipodi:role="line"
+         id="tspan25914-7-6-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.74522px;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.0538617"
+         x="66.407242"
+         y="4.8155637">22/02/02</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.7379px;line-height:1.25;font-family:'TerminessTTF Nerd Font Mono';-inkscape-font-specification:'TerminessTTF Nerd Font Mono';stroke-width:0.213168"
+       x="21.073746"
+       y="14.949518"
+       id="text25916-5"
+       transform="scale(0.83286498,1.2006748)"><tspan
+         sodipodi:role="line"
+         id="tspan25914-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.7379px;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.213168"
+         x="21.073746"
+         y="14.949518">:</tspan></text>
+    <g
+       id="g103307"
+       transform="translate(10.956985,0.20898875)">
+      <text
+         xml:space="preserve"
+         style="font-size:5.74522px;line-height:1.25;font-family:'TerminessTTF Nerd Font Mono';-inkscape-font-specification:'TerminessTTF Nerd Font Mono';stroke-width:0.0538617"
+         x="55.671673"
+         y="10.159113"
+         id="text25916-6-5-2-6"
+         transform="scale(0.83286498,1.2006748)"><tspan
+           sodipodi:role="line"
+           id="tspan25914-7-6-9-0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.74522px;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.0538617"
+           x="55.671673"
+           y="10.159113">07:30</tspan></text>
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="path103039"
+         cx="64.47908"
+         cy="9.7442999"
+         r="2.1166668" />
+    </g>
+    <g
+       id="g103307-1"
+       transform="translate(10.933282,6.5949988)">
+      <text
+         xml:space="preserve"
+         style="font-size:5.74522px;line-height:1.25;font-family:'TerminessTTF Nerd Font Mono';-inkscape-font-specification:'TerminessTTF Nerd Font Mono';stroke-width:0.0538617"
+         x="55.671673"
+         y="10.159113"
+         id="text25916-6-5-2-6-8"
+         transform="scale(0.83286498,1.2006748)"><tspan
+           sodipodi:role="line"
+           id="tspan25914-7-6-9-0-7"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.74522px;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.0538617"
+           x="55.671673"
+           y="10.159113">07:30</tspan></text>
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="path103039-9"
+         cx="64.47908"
+         cy="9.7442999"
+         r="2.1166668" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 0,29.633334 4.2333334,-4.233333 6.3500006,4.233333 6.35,-6.35 h 4.233333 l 4.233334,2.116667 6.35,6.35"
+       id="path103437" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 55.033335,0 c 0,21.166667 0,21.166667 0,21.166667 v 0"
+       id="path103441" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 61.383335,21.166667 c 0,12.700001 0,12.700001 0,12.700001"
+       id="path103443" />
+  </g>
+</svg>

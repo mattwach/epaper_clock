@@ -1,0 +1,13 @@
+# Use make_var_font.py
+output_type: VariableFont
+
+# Every character must have the same height
+rows: 3
+
+# The rest is a concatenated set of sections.  If any section
+# overlaps a previous section, an error will be raised.
+sections:
+  - type: image_grid
+    path: ../ui/sun_moon_icons_light.png
+    col_width: 24
+    first_char: 0
