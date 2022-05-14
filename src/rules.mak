@@ -1,17 +1,17 @@
 a.hex: clean a.out
-		$(AVR_PATH)/avr-objcopy -j .text -j .data -O ihex a.out a.hex
+		avr-objcopy -j .text -j .data -O ihex a.out a.hex
   
 a.S: a.out
-		$(AVR_PATH)/avr-objdump -h -S a.out > $@
+		avr-objdump -h -S a.out > $@
 
 a.out: $(FILES)
-		$(AVR_PATH)/avr-gcc $(LFLAGS) $(FILES) 
+		$(AVR_GCC) $(LFLAGS) $(FILES) 
 
 %.o: %.c
-		$(AVR_PATH)/avr-gcc $(BASE_CFLAGS) $(CFLAGS) $(INCLUDES) -o $@ $?
+		$(AVR_GCC) $(BASE_CFLAGS) $(CFLAGS) $(INCLUDES) -o $@ $?
 
 %.o: %.S
-		$(AVR_PATH)/avr-gcc $(BASE_CFLAGS) $(CFLAGS) $(INCLUDES) -o $@ $?
+		$(AVR_GCC) $(BASE_CFLAGS) $(CFLAGS) $(INCLUDES) -o $@ $?
 
 upload: a.hex
 		$(AVR_DUDE) \
@@ -71,4 +71,4 @@ clean:
 		rm -f a.S a.out a.hex $(FILES)
 
 asm:
-		$(AVR_PATH)/avr-gcc -S $(CFLAGS) main.c
+		$(AVR_GCC) -S $(CFLAGS) main.c

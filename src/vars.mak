@@ -4,8 +4,8 @@ ROOT ?= ../..
 ROOT_LIB ?= $(ROOT)/lib
 
 OS=$(shell uname)
-AVR_PATH ?= /usr/bin
-AVR_DUDE ?= /usr/bin/avrdude
+AVR_GCC ?= avr-gcc
+AVR_DUDE ?= avrdude
 AVR_DUDE_CONF ?= $(ROOT)/avrdude.conf
 
 MCU ?= atmega328p
