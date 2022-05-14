@@ -4,25 +4,9 @@ ROOT ?= ../..
 ROOT_LIB ?= $(ROOT)/lib
 
 OS=$(shell uname)
-ifeq ($(OS),Darwin)
-  ARDUINO ?= /Users/mattwach/Library/Arduino15/packages/arduino
-
-  AVR_PATH ?= $(ARDUINO)/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin
-  AVR_DUDE ?= $(ARDUINO)/tools/avrdude/6.3.0-arduino9/bin/avrdude
-  AVR_DUDE_CONF ?= $(ARDUINO)/tools/avrdude/6.3.0-arduino9/etc/avrdude.conf
-  SERIAL_DEV ?= $(shell ls /dev/cu.wchusbserial* | head -1)
-endif
-
-ifneq (,$(wildcard /usr/bin/avr-gcc))
- AVR_PATH ?= /usr/bin
- AVR_DUDE ?= /usr/bin/avrdude
- AVR_DUDE_CONF ?= $(ROOT)/avrdude.conf
-else
-  ARDUINO ?= ${HOME}/arduino-1.8.12
- AVR_PATH ?= $(ARDUINO)/hardware/tools/avr/bin
- AVR_DUDE ?= $(AVR_PATH)/avrdude
- AVR_DUDE_CONF ?= $(ARDUINO)/hardware/tools/avr/etc/avrdude.conf
-endif
+AVR_PATH ?= /usr/bin
+AVR_DUDE ?= /usr/bin/avrdude
+AVR_DUDE_CONF ?= $(ROOT)/avrdude.conf
 
 MCU ?= atmega328p
 
