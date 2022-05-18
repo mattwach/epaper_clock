@@ -217,7 +217,7 @@ static void init(void) {
   set_system_time(current_time_y2k);
   position_set_trigger = 0;
   load_eeprom(&eeprom);
-  set_zone(-((int32_t)eeprom.utc_offset) * ONE_HOUR);
+  set_zone(((int32_t)eeprom.utc_offset) * ONE_HOUR);
   // Set unused pins as pullups
   // All PB pins are used
   // PC0, PC1, PC2, PC3 are unused

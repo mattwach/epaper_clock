@@ -38,12 +38,12 @@ static void render_increment_timezone(
     uint8_t select_pressed,
     struct EEPromVars* eeprom) {
   if (select_pressed) {
-    if (eeprom->utc_offset == 0) {
-      eeprom->utc_offset = 23;
+    if (eeprom->utc_offset >= 14) {
+      eeprom->utc_offset = -12;
     } else {
-      --eeprom->utc_offset;
+      ++eeprom->utc_offset;
     }
-    set_zone(-((int32_t)eeprom->utc_offset) * ONE_HOUR);
+    set_zone(((int32_t)eeprom->utc_offset) * ONE_HOUR);
   }
   text_str(&text, "TIMEZONE+1");
 }
@@ -52,12 +52,12 @@ static void render_decrement_timezone(
     uint8_t select_pressed,
     struct EEPromVars* eeprom) {
   if (select_pressed) {
-    if (eeprom->utc_offset == 23) {
-      eeprom->utc_offset = 0;
+    if (eeprom->utc_offset <= -12) {
+      eeprom->utc_offset = 14;
     } else {
-      ++eeprom->utc_offset;
+      --eeprom->utc_offset;
     }
-    set_zone(-((int32_t)eeprom->utc_offset) * ONE_HOUR);
+    set_zone(((int32_t)eeprom->utc_offset) * ONE_HOUR);
   }
   text_str(&text, "TIMEZONE-1");
 }

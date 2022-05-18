@@ -2,10 +2,10 @@
 
 #include <avr/eeprom.h>
 
-// Calculates the checksum, using as many of the 8-bits as possible (which is why
-// the utc offset is shifted up).
+// Calculates the checksum.  Option bits are shifted to make more
+// use of the overall byte (as UTC offset ranges from -12 to +14)
 static inline uint8_t calc_eeprom_checksum(const struct EEPromVars* eeprom) {
-  return (eeprom->utc_offset << 3) ^ eeprom->option_bits;
+  return eeprom->utc_offset ^ (eeprom->option_bits << 4);
 }
 
 // Loads the eeprom memory block into the provided structure.
@@ -13,7 +13,8 @@ void load_eeprom(struct EEPromVars* eeprom) {
   eeprom_read_block(eeprom, (uint8_t*)(0x00), sizeof(struct EEPromVars));
   const uint8_t checksum = calc_eeprom_checksum(eeprom);
   if ((checksum != eeprom->checksum) ||
-      (eeprom->utc_offset > 23) ||
+      (eeprom->utc_offset < -12) ||
+      (eeprom->utc_offset > 14) ||
       (eeprom->option_bits > OPTION_MASK)) {
     // Data is uninitialized or corrupted
     eeprom->utc_offset = 0;

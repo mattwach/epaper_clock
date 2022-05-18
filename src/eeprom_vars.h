@@ -10,7 +10,7 @@
 #define OPTION_MASK 0x07
 
 struct EEPromVars {
-  uint8_t utc_offset;
+  int8_t utc_offset;
   uint8_t option_bits;
   uint8_t checksum;
 };
