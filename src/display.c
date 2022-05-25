@@ -200,11 +200,11 @@ static void recalc_moon_phase(const time_t time_y2k) {
   if (phase <= -87) {
     moon_icon = FULL_MOON;
   } else if (phase <= -63) {
-    moon_icon = WANING_CRESCENT;
+    moon_icon = WANING_GIBBOUS;
   } else if (phase <= -38) {
     moon_icon = LAST_QUARTER;
   } else if (phase <= -13) {
-    moon_icon = WANING_GIBBOUS;
+    moon_icon = WANING_CRESCENT;
   } else if (phase <= 13) {
     moon_icon = NEW_MOON;
   } else if (phase <= 38) {
