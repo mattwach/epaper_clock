@@ -22,6 +22,9 @@ CFLAGS := \
     -D$(UART_MODE) \
     $(DEBUG_CFLAG) \
 
+# If you get the error, array subscript 0 is outside array bounds
+# then uncomment the line below (it has to do with using GCC >= 12)
+#CFLAGS += --param=min-pagesize=0
 
 ROOT=.
 include $(ROOT)/vars.mak
